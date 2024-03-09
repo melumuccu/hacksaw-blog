@@ -1,4 +1,4 @@
-FROM node:20.11.1
+FROM node:16.20.2
 WORKDIR /usr/src/app
 
 RUN curl https://dl.yarnpkg.com/debian/pubkey.gpg | apt-key add -
