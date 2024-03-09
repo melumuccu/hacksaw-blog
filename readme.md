@@ -2,7 +2,15 @@
 
 [ijjk/notion-blog](https://github.com/ijjk/notion-blog) を fork して作成した Notion で編集可能なブログ
 
-## Get Started
+## Get Started (local)
+
+### 初回セットアップ
+
+- 環境変数の設定
+
+  - .env.example を参考に .env を作成する
+
+- セットアップ
 
 ```
 $ ./setup.sh
