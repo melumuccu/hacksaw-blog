@@ -1,3 +1,17 @@
+# hacksaw-blog
+
+[ijjk/notion-blog](https://github.com/ijjk/notion-blog) を fork して作成した Notion で編集可能なブログ
+
+## Get Started
+
+```
+$ ./setup.sh
+```
+
+//======================================================
+// 以下は fork 元の README
+//======================================================
+
 # Notion Blog
 
 This is an example Next.js project that shows Next.js' upcoming SSG (static-site generation) support using Notion's **private** API for a backend.
