@@ -1,4 +1,4 @@
-FROM node:14.15.3
+FROM node:20.11.1
 WORKDIR /usr/src/app
 
 RUN curl https://dl.yarnpkg.com/debian/pubkey.gpg | apt-key add -
@@ -6,5 +6,3 @@ RUN echo "deb https://dl.yarnpkg.com/debian/ stable main" | tee /etc/apt/sources
 
 RUN apt-get update && apt-get install -y yarn
 RUN apt install direnv
-
-RUN yarn install

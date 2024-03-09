@@ -1,6 +1,7 @@
 version: '3'
 services:
-  node:
+  hacksaw-blog:
+    container_name: hacksaw-blog
     build:
       context: .
       dockerfile: Dockerfile
@@ -8,4 +9,4 @@ services:
       - .:/usr/src/app
     command: sh -c "yarn dev"
     ports:
-      - "3000:3000"
+      - '3000:3000'
